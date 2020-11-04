@@ -55,7 +55,7 @@ const routes = [
     name: "NewShift",
     component: NewShift,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -63,7 +63,7 @@ const routes = [
     name: "ShiftPay",
     component: ShiftPay,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -71,7 +71,7 @@ const routes = [
     name: "Transactions",
     component: Transactions,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -79,7 +79,7 @@ const routes = [
     name: "Shifts",
     component: Shifts,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -87,7 +87,7 @@ const routes = [
     name: "Factor",
     component: Factor,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -95,7 +95,7 @@ const routes = [
     name: "Factors",
     component: Factors,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -103,7 +103,7 @@ const routes = [
     name: "EditProfile",
     component: EditProfile,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
@@ -111,7 +111,7 @@ const routes = [
     name: "Users",
     component: Users,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
