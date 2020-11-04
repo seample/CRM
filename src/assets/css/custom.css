@@ -1,0 +1,79 @@
+@import "./font.css";
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.v-application {
+  font-family: IRANSans !important;
+}
+.theme--light.v-navigation-drawer {
+  background-color: #3c4b64 !important;
+}
+
+body .v-application .cyan {
+  background-color: #ffffff !important;
+}
+.v-main {
+  background-color: #ebedef;
+}
+.theme--dark.v-btn.v-btn--icon,
+.v-toolbar__content .v-toolbar__title,
+body .v-application .v-footer .white--text span {
+  color: #3c4b64 !important;
+}
+body .v-application .v-footer .white--text a {
+  text-decoration: none;
+  color: #321fdb !important;
+  font-size: 1vw;
+}
+body .v-application .v-footer .white--text a:hover {
+  text-decoration: underline;
+  color: #321fdb !important;
+}
+body .v-application .v-list--dense .v-list-item .v-list-item__title {
+  font-size: 1rem !important;
+  font-weight: normal !important;
+  line-height: inherit !important;
+}
+.v-card .v-card__title {
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid;
+  background-color: #fff;
+  border-color: #d8dbe0;
+}
+.v-card .v-card__text {
+  padding-top: 1vw !important;
+}
+.v-card {
+  border-radius: 10px !important;
+}
+.v-navigation-drawer .theme--light.v-icon,
+.v-application .v-navigation-drawer .primary--text {
+  color: #fff !important;
+}
+.v-navigation-drawer a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+* {
+  letter-spacing: 0px !important;
+}
+.swal2-content,
+.swal2-title {
+  direction: rtl !important;
+}
+.date_custom {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px !important;
+}
+.date_custom input {
+}
+.vpd-input-group {
+  margin-top: 8px;
+}
