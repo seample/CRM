@@ -47,7 +47,9 @@
               <v-card-title>به ساعی خوش آمدید</v-card-title>
               <v-card-text>
                 <p>به سامانه نوبت دهی آنلاین کلینیک ساعی خوش آمدید.</p>
-                <p>در صورت داشتن هر گونه سوال با شماره ۸۸۱۰۰۰۵۰-۰۲۱ تماس بگیرید.</p>
+                <p>
+                  در صورت داشتن هر گونه سوال با شماره ۸۸۱۰۰۰۵۰-۰۲۱ تماس بگیرید.
+                </p>
                 <p>پیروز باشید</p>
               </v-card-text>
             </v-card>
@@ -62,7 +64,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>
