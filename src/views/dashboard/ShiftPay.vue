@@ -9,16 +9,29 @@
               <v-card-title>پرداخت بیعانه</v-card-title>
               <v-form v-model="valid">
                 <v-container>
-                  <p>مبلغ بیعانه را به تومان وارد نمایید و بر روی گزینه صدور صورت حساب کلیک کنید:</p>
                   <p>
-                    <strong style="color:red">حداقل مبلغ بیعانه ۲۰۰،۰۰۰ تومان می‌باشد</strong>
+                    مبلغ بیعانه را به تومان وارد نمایید و بر روی گزینه صدور صورت
+                    حساب کلیک کنید:
+                  </p>
+                  <p>
+                    <strong style="color: red"
+                      >حداقل مبلغ بیعانه ۲۰۰،۰۰۰ تومان می‌باشد</strong
+                    >
                   </p>
                   <v-row>
                     <v-col cols="12" md="4">
-                      <v-text-field label="مبلغ (تومان)" v-model="price" type="number" autofocus></v-text-field>
+                      <v-text-field
+                        label="مبلغ (تومان)"
+                        v-model="price"
+                        type="number"
+                        autofocus
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="3">
-                      <v-text-field label="کد تخفیف خود را وارد نمایید" type="number"></v-text-field>
+                      <v-text-field
+                        label="کد تخفیف خود را وارد نمایید"
+                        type="number"
+                      ></v-text-field>
                     </v-col>
 
                     <v-col cols="12" md="3">
@@ -27,7 +40,8 @@
                         color="#00acc1"
                         :loading="Tloading"
                         @click="storeFactor"
-                      >صدور صورتحساب</v-btn>
+                        >صدور صورتحساب</v-btn
+                      >
                     </v-col>
                   </v-row>
                 </v-container>
@@ -44,7 +58,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

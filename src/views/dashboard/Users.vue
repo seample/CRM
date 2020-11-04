@@ -31,17 +31,18 @@
               >
                 <template v-slot:item="row">
                   <tr>
-                    <td>{{row.item.national_code}}</td>
+                    <td>{{ row.item.national_code }}</td>
 
-                    <td>{{row.item.name}} {{row.item.last_name}}</td>
-                    <td>{{row.item.phone_number}}</td>
-                    <td>{{row.item.created_at}}</td>
+                    <td>{{ row.item.name }} {{ row.item.last_name }}</td>
+                    <td>{{ row.item.phone_number }}</td>
+                    <td>{{ row.item.created_at }}</td>
                     <td align="left">
                       <v-btn
                         color="success"
                         class="searchshiftbtn"
                         :disabled="row.item.disabled"
-                      >ویرایش اطلاعات</v-btn>
+                        >ویرایش اطلاعات</v-btn
+                      >
                     </td>
                   </tr>
                 </template>
@@ -58,7 +59,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

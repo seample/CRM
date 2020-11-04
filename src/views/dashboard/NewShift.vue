@@ -28,7 +28,8 @@
                         color="#00acc1"
                         @click="search"
                         :loading="searchLoading"
-                      >جستجو</v-btn>
+                        >جستجو</v-btn
+                      >
                     </v-col>
                   </v-row>
                 </v-container>
@@ -43,26 +44,39 @@
               >
                 <template v-slot:item="row">
                   <tr>
-                    <td>{{row.item.name}}</td>
-                    <td>{{row.item.date}}</td>
-                    <td>{{row.item.clock}}</td>
+                    <td>{{ row.item.name }}</td>
+                    <td>{{ row.item.date }}</td>
+                    <td>{{ row.item.clock }}</td>
                     <td>
-                      {{(row.item.Uname == null) ? '' : `${row.item.Uname.name} ${row.item.Uname.last_name}`}}
+                      {{
+                        row.item.Uname == null
+                          ? ""
+                          : `${row.item.Uname.name} ${row.item.Uname.last_name}`
+                      }}
                       <br />
-                      {{(row.item.Uname == null) ? '' : 'کد ملی: ' + row.item.Uname.national_code}}
+                      {{
+                        row.item.Uname == null
+                          ? ""
+                          : "کد ملی: " + row.item.Uname.national_code
+                      }}
                       <br />
-                      {{(row.item.Uname == null) ? '' : 'موبایل: ' + row.item.Uname.phone_number}}
+                      {{
+                        row.item.Uname == null
+                          ? ""
+                          : "موبایل: " + row.item.Uname.phone_number
+                      }}
                     </td>
-                    <td>{{row.item.method}}</td>
-                    <td>{{row.item.nobat}}</td>
-                    <td>{{row.item.status}}</td>
+                    <td>{{ row.item.method }}</td>
+                    <td>{{ row.item.nobat }}</td>
+                    <td>{{ row.item.status }}</td>
                     <td align="left">
                       <v-btn
                         color="success"
                         class="searchshiftbtn"
                         :disabled="row.item.disabled"
                         @click="updateshift(row.item.id)"
-                      >{{row.item.btn}}</v-btn>
+                        >{{ row.item.btn }}</v-btn
+                      >
                     </td>
                   </tr>
                 </template>
@@ -79,7 +93,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

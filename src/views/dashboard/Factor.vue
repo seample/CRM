@@ -9,7 +9,10 @@
               <v-card-title>تایید نوبت و پرداخت بیعانه</v-card-title>
               <v-form v-model="valid">
                 <v-container>
-                  <p>در صورت تایید اطلاعات مبلغ بیعانه مورد نظر را وارد و پرداخت نمایید:</p>
+                  <p>
+                    در صورت تایید اطلاعات مبلغ بیعانه مورد نظر را وارد و پرداخت
+                    نمایید:
+                  </p>
                   <v-row>
                     <v-col cols="12" md="4">
                       <v-select
@@ -27,7 +30,8 @@
                         color="#00acc1"
                         @click="search"
                         :loading="searchLoading"
-                      >جستجو</v-btn>
+                        >جستجو</v-btn
+                      >
                     </v-col>
                   </v-row>
                 </v-container>
@@ -41,17 +45,18 @@
               >
                 <template v-slot:item="row">
                   <tr>
-                    <td>{{row.item.name}}</td>
-                    <td>{{row.item.date}}</td>
-                    <td>{{row.item.nobat}}</td>
-                    <td>{{row.item.status}}</td>
+                    <td>{{ row.item.name }}</td>
+                    <td>{{ row.item.date }}</td>
+                    <td>{{ row.item.nobat }}</td>
+                    <td>{{ row.item.status }}</td>
                     <td align="left">
                       <v-btn
                         color="success"
                         class="searchshiftbtn"
                         :disabled="row.item.disabled"
                         @click="reserve(row.item.id)"
-                      >{{row.item.btn}}</v-btn>
+                        >{{ row.item.btn }}</v-btn
+                      >
                     </td>
                   </tr>
                 </template>
@@ -68,7 +73,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

@@ -8,7 +8,10 @@
             <v-card>
               <v-card-title>صورت حساب‌ها</v-card-title>
               <v-card-text>
-                <p>در این قسمت لیست صورت حسابهای خود را می‌توانید مشاهده نمایید و آنها را پرداخت کنید.</p>
+                <p>
+                  در این قسمت لیست صورت حسابهای خود را می‌توانید مشاهده نمایید و
+                  آنها را پرداخت کنید.
+                </p>
               </v-card-text>
               <v-card-title>
                 <v-col cols="12" md="5">
@@ -31,14 +34,14 @@
               >
                 <template v-slot:item="row">
                   <tr>
-                    <td>{{row.item.name}} {{row.item.last_name}}</td>
-                    <td>{{row.item.national_code}}</td>
-                    <td>{{row.item.phone_number}}</td>
-                    <td>{{formatPrice(row.item.invoice_amount)}} تومان</td>
+                    <td>{{ row.item.name }} {{ row.item.last_name }}</td>
+                    <td>{{ row.item.national_code }}</td>
+                    <td>{{ row.item.phone_number }}</td>
+                    <td>{{ formatPrice(row.item.invoice_amount) }} تومان</td>
 
-                    <td>{{factorStatus(row.item.status)}}</td>
-                    <td>{{factordate(row.item.receipt_date)}}</td>
-                    <td>{{factordate(row.item.payment_date)}}</td>
+                    <td>{{ factorStatus(row.item.status) }}</td>
+                    <td>{{ factordate(row.item.receipt_date) }}</td>
+                    <td>{{ factordate(row.item.payment_date) }}</td>
                   </tr>
                 </template>
               </v-data-table>
@@ -54,7 +57,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

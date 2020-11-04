@@ -22,7 +22,12 @@
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="نام" v-model="name" :rules="nameRules" required></v-text-field>
+                      <v-text-field
+                        label="نام"
+                        v-model="name"
+                        :rules="nameRules"
+                        required
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
                       <v-text-field
@@ -43,16 +48,31 @@
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="3">
-                      <v-text-field label="ایمیل" type="text" v-model="email"></v-text-field>
+                      <v-text-field
+                        label="ایمیل"
+                        type="text"
+                        v-model="email"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <custom-date-picker v-model="birth" placeholder="تاریخ تولد"></custom-date-picker>
+                      <custom-date-picker
+                        v-model="birth"
+                        placeholder="تاریخ تولد"
+                      ></custom-date-picker>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="استان" type="text" v-model="state"></v-text-field>
+                      <v-text-field
+                        label="استان"
+                        type="text"
+                        v-model="state"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="شهر" type="text" v-model="city"></v-text-field>
+                      <v-text-field
+                        label="شهر"
+                        type="text"
+                        v-model="city"
+                      ></v-text-field>
                     </v-col>
                   </v-row>
                   <v-row>
@@ -62,7 +82,8 @@
                         color="#00acc1"
                         @click="store_user"
                         :loading="loading"
-                      >ثبت نام</v-btn>
+                        >ثبت نام</v-btn
+                      >
                     </v-col>
                   </v-row>
                 </v-container>
@@ -79,7 +100,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

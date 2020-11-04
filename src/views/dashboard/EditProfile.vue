@@ -14,33 +14,69 @@
                 <v-container>
                   <v-row>
                     <v-col cols="12" md="4">
-                      <v-text-field label="نام" type="text" v-model="name"></v-text-field>
+                      <v-text-field
+                        label="نام"
+                        type="text"
+                        v-model="name"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="نام خانوادگی" type="text" v-model="last_name"></v-text-field>
+                      <v-text-field
+                        label="نام خانوادگی"
+                        type="text"
+                        v-model="last_name"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="موبایل" type="text" v-model="phone_number"></v-text-field>
+                      <v-text-field
+                        label="موبایل"
+                        type="text"
+                        v-model="phone_number"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="ایمیل" type="text" v-model="email"></v-text-field>
+                      <v-text-field
+                        label="ایمیل"
+                        type="text"
+                        v-model="email"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="رمز عبور" type="text" v-model="password"></v-text-field>
+                      <v-text-field
+                        label="رمز عبور"
+                        type="text"
+                        v-model="password"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <custom-date-picker v-model="birth" placeholder="تاریخ تولد"></custom-date-picker>
+                      <custom-date-picker
+                        v-model="birth"
+                        placeholder="تاریخ تولد"
+                      ></custom-date-picker>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="استان" type="text" v-model="state"></v-text-field>
+                      <v-text-field
+                        label="استان"
+                        type="text"
+                        v-model="state"
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="شهر" type="text" v-model="city"></v-text-field>
+                      <v-text-field
+                        label="شهر"
+                        type="text"
+                        v-model="city"
+                      ></v-text-field>
                     </v-col>
                   </v-row>
                   <v-row>
                     <v-col cols="12" md="3">
-                      <v-btn class="searchshift" color="#00acc1" @click="editProfile">بروزرسانی</v-btn>
+                      <v-btn
+                        class="searchshift"
+                        color="#00acc1"
+                        @click="editProfile"
+                        >بروزرسانی</v-btn
+                      >
                     </v-col>
                   </v-row>
                 </v-container>
@@ -57,7 +93,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>

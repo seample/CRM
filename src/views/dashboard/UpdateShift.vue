@@ -22,7 +22,12 @@
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
-                      <v-text-field label="نوع کاشت" v-model="name" :rules="nameRules" required></v-text-field>
+                      <v-text-field
+                        label="نوع کاشت"
+                        v-model="name"
+                        :rules="nameRules"
+                        required
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="4">
                       <v-text-field
@@ -34,7 +39,10 @@
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12" md="12">
-                      <v-textarea label="توضیحات اختصاصی نوبت ..." v-model="city"></v-textarea>
+                      <v-textarea
+                        label="توضیحات اختصاصی نوبت ..."
+                        v-model="city"
+                      ></v-textarea>
                     </v-col>
                   </v-row>
                   <v-row>
@@ -44,7 +52,8 @@
                         color="#00acc1"
                         @click="store_user"
                         :loading="loading"
-                      >ثبت نام</v-btn>
+                        >ثبت نام</v-btn
+                      >
                     </v-col>
                   </v-row>
                 </v-container>
@@ -61,7 +70,9 @@
       <span class="white--text footer">
         ©
         <span target="_blank" class="mr-1">طراحی و پیاده سازی</span> &nbsp;
-        <a href="https://saeeclinic.com" target="_blank">دپارتمان انفورماتیک ساعی</a>
+        <a href="https://ponisha.ir/profile/demaks" target="_blank"
+          >داود نظری فرد</a
+        >
       </span>
     </v-footer>
   </v-app>
